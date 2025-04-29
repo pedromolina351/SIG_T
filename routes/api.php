@@ -5,5 +5,5 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Api\PersonaController;
 
 
-Route::get('/obtener-departamentos', [PersonaController::class, 'obtenerDepartamentos']);
+Route::get('/ejecutar-query', [PersonaController::class, 'ejecutarQuery']);
 
